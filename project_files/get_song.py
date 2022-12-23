@@ -34,5 +34,5 @@ row, name, scale = get_song(val_data, song_names)
 #you can call this function
 #you get row, name, and scale
 #using name you can play the song for the player
-#using scale you can compare scale that he guessed with true scale
-#using row you can easily access data in datasets val_data and list
+#using scale you can compare scale that he/she guessed with true scale
+#using row you can easily access data in datasets val_data.csv and list.csv
