@@ -14,7 +14,7 @@ song_names = pd.read_csv(song_names_path)
 song_names = song_names.set_index('Index')
 
 #This part is unnessary if you have downloaded new csv from my github, you can
-#delete rows 13~21
+#delete rows 16~24
 #since validation data has only 344 song out of 859, it will be usefull to 
 #delete unused song names from {song_names}
 rows = np.array(val_data.index)
